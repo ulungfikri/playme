@@ -1,0 +1,29 @@
+Video 		: id, title, author, tumb , content(video), desc, views, idkat
+
+Kategori 	: idkat, nama
+
+
+
+sqlite3 playme.db
+
+
+CREATE TABLE VIDEO (
+   ID INT PRIMARY KEY,
+   TITLE VARCHAR(25),
+   AUTHOR VARCHAR(25),
+   TUMB TEXT,
+   CONTENT TEXT,
+   DESC TEXT,
+   VIEWS INT,
+   IDKAT INT
+);
+
+CREATE TABLE KATEGORI(
+   IDKAT INT PRIMARY KEY,
+   NAMA VARCHAR(25)
+  );
+
+
+INSERT INTO KATEGORI VALUES (1, 'Movies');
+INSERT INTO KATEGORI VALUES (2, 'Sports');
+INSERT INTO KATEGORI VALUES (3, 'Songas);
