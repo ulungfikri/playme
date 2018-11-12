@@ -10,9 +10,9 @@
 	<!-- bootstrap -->
 	<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' media="all" />
 	<!-- //bootstrap -->
-	<link href="css/dashboard.css" rel="stylesheet">
+	<link href="/css/dashboard.css" rel="stylesheet">
 	<!-- Custom Theme files -->
-	<link href="css/style.css" rel='stylesheet' type='text/css' media="all" />
+	<link href="/css/style.css" rel='stylesheet' type='text/css' media="all" />
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<!--start-smoth-scrolling-->
 	<!-- fonts -->
