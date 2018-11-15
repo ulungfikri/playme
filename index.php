@@ -1,3 +1,10 @@
+<?php 
+
+//include_once('app.php');
+require_once("app-code.php");
+
+?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -796,7 +803,7 @@
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="js/bootstrap.min.js"></script>
+    	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>
     	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     </body>
-    <?php require_once("app-code2.php"); ?>
     </html>
