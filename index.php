@@ -1,9 +1,4 @@
-<?php 
 
-//include_once('app.php');
-require_once("app-code.php");
-
-?>
 
 <!DOCTYPE HTML>
 <html>
