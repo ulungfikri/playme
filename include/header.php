@@ -18,12 +18,16 @@
 				</form>
 			</div>
 			<div class="header-top-right">
+
+				   <h1><a>Username &nbsp;<?=$_GET['userFullname']?></a></h1>
+
+
 				<div class="signin">
 					<button class="stdbtnon" type="button" onclick="mncdigRegister()">Sign Up</button>
 				</div>
 
 				<div class="signin">
-					<button class="stdbtnon" type="button" onclick="mncdigLogin('<?=$_GET['appClientKey']?>')">Log In</button>
+					<button href="" onclick="mncdigLogin('CAjRrVH4uhnyp0sh')" class="btn btn-danger">Log In</button>
 				</div>
 
 				<div class="signin">
@@ -31,6 +35,7 @@
 				</div>
 				<div class="clearfix"> </div>
 			</div>
+
 		</div>
 		<div class="clearfix"> </div>
 	</div>

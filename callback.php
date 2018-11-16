@@ -43,7 +43,7 @@
 			case 'logout':
 				// $json = '{"username":"'.$cusername.'", "logstat":"'.$cstatus.'"}';
 				// file_put_contents($_SERVER['DOCUMENT_ROOT']."/data/".$cuuid."/callback.json", $json);
-				deleteDir($_SERVER['DOCUMENT_ROOT'].APP_SUBDOMAIN."/data/".$cuuid);
+				deleteDir($_SERVER['DOCUMENT_ROOT']."/data/".$cuuid);
 				break;
 			case 'login':
 			case 'profile':
@@ -86,7 +86,7 @@
 
 	$json = '{"uuid":"'.$cuuid.'", "username":"'.$cusername.'", "logstat":"'.$cstatus.'", "profile":"'.$cprofile.'"}';
 
-	$cpath = $_SERVER['DOCUMENT_ROOT'].APP_SUBDOMAIN."/data/".$cuuid;
+	$cpath = $_SERVER['DOCUMENT_ROOT']."/data/".$cuuid;
 	if(!file_exists($cpath)) {
 		if(!mkdir($cpath, 0755, true)) {
 			error_log('UNABLE_TO_CREATE_DIRECTORY: ' . $cpath);

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<?php 
+require_once("app-code.php");
+?>
+
+>>>>>>> 186cfb6940036b3115aa2f173e78970c1a39e282
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -20,8 +27,12 @@
 	<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<!-- //fonts -->
 </head>
+<<<<<<< HEAD
 <body>
 	
+=======
+<body>	
+>>>>>>> 186cfb6940036b3115aa2f173e78970c1a39e282
 	<?php require_once("include/header.php"); ?>		
 	<!-- Sidebar Start -->
 	<?php require_once("include/sidebar.php"); ?>
@@ -802,6 +813,14 @@
     </html>
 =======
     	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>
+
+    	<script type="text/javascript">
+
+    		$(document).ready(function() {
+    			mncdigAuth('<?=$_GET['username']?>', '<?=$_GET['appClientKey']?>');
+    		})
+
+    	</script>
     	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     </body>
     </html>
