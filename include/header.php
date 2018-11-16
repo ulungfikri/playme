@@ -21,11 +21,11 @@
 
 				<a><?=$_GET['userFullname']?></a>
 
-				<?php if( isset( $_SESSION[$_GET['username']] ) ): ?>
+				<?php if( isset( $_SESSION['username'] ) ): ?>
 				<div class="signin">
 					<button href="" onclick="mncdigLogout()" class="btn btn-info">Log Out</button>
 				</div>
-				
+
 				<?php else: ?>
 				<div class="signin">
 					<button href="" onclick="mncdigRegister()" class="btn btn-info">Sign Up</button>
