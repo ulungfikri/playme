@@ -1,8 +1,3 @@
-<?php  
-
-	require_once("app-code.php");  
-?>
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -800,7 +795,14 @@
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="js/bootstrap.min.js"></script>
+<<<<<<< HEAD
 	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>    	
 	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     </body>
     </html>
+=======
+    	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>
+    	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    </body>
+    </html>
+>>>>>>> 9246e704c356b94dfd4588ad71e46e0b9439e068
