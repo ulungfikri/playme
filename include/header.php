@@ -19,19 +19,19 @@
 			</div>
 			<div class="header-top-right">
 
-				   <h1><a>Username &nbsp;<?=$_GET['userFullname']?></a></h1>
+				<a><?=$_GET['userFullname']?></a>
 
 
 				<div class="signin">
-					<button class="stdbtnon" type="button" onclick="mncdigRegister()">Sign Up</button>
+					<button href="" onclick="mncdigRegister()" class="btn btn-info">Sign Up</button>
 				</div>
 
 				<div class="signin">
-					<button href="" onclick="mncdigLogin('CAjRrVH4uhnyp0sh')" class="btn btn-danger">Log In</button>
+					<button href="" onclick="mncdigLogin('CAjRrVH4uhnyp0sh')" class="btn btn-info">Log In</button>
 				</div>
 
 				<div class="signin">
-					<button class="stdbtnon" type="button" onclick="mncdigLogout()">Log Out</button>
+					<button href="" onclick="mncdigLogout()" class="btn btn-info">Log Out</button>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
