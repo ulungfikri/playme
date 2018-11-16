@@ -1,4 +1,6 @@
-
+<?php 
+require_once("app-code.php");
+?>
 
 <!DOCTYPE HTML>
 <html>
@@ -22,9 +24,7 @@
 	<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<!-- //fonts -->
 </head>
-<body>
-	<?php require_once("app-code.php"); ?>
-	
+<body>	
 	<?php require_once("include/header.php"); ?>		
 	<!-- Sidebar Start -->
 	<?php require_once("include/sidebar.php"); ?>
@@ -799,6 +799,14 @@
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="js/bootstrap.min.js"></script>
     	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>
+
+    	<script type="text/javascript">
+
+    		$(document).ready(function() {
+    			mncdigAuth('<?=$_GET['username']?>', '<?=$_GET['appClientKey']?>');
+    		})
+
+    	</script>
     	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     </body>
     </html>
