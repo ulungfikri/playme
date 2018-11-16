@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-=======
-<?php 
-require_once("app-code.php");
+
+<?php
+  require_once("app-code.php");
 ?>
 
->>>>>>> 186cfb6940036b3115aa2f173e78970c1a39e282
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -27,13 +25,9 @@ require_once("app-code.php");
 	<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<!-- //fonts -->
 </head>
-<<<<<<< HEAD
+
 <body>
-	
-=======
-<body>	
->>>>>>> 186cfb6940036b3115aa2f173e78970c1a39e282
-	<?php require_once("include/header.php"); ?>		
+	<?php require_once("include/header.php"); ?>
 	<!-- Sidebar Start -->
 	<?php require_once("include/sidebar.php"); ?>
 	<!-- Sidebar End -->
@@ -806,12 +800,6 @@ require_once("app-code.php");
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>    	
-	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    </body>
-    </html>
-=======
     	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>
 
     	<script type="text/javascript">
@@ -824,4 +812,3 @@ require_once("app-code.php");
     	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     </body>
     </html>
->>>>>>> 9246e704c356b94dfd4588ad71e46e0b9439e068
