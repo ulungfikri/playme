@@ -21,7 +21,12 @@
 
 				<a><?=$_GET['userFullname']?></a>
 
-
+				<?php if( isset( $_SESSION[$_GET['username']] ) ): ?>
+				<div class="signin">
+					<button href="" onclick="mncdigLogout()" class="btn btn-info">Log Out</button>
+				</div>
+				
+				<?php else: ?>
 				<div class="signin">
 					<button href="" onclick="mncdigRegister()" class="btn btn-info">Sign Up</button>
 				</div>
@@ -30,10 +35,9 @@
 					<button href="" onclick="mncdigLogin('CAjRrVH4uhnyp0sh')" class="btn btn-info">Log In</button>
 				</div>
 
-				<div class="signin">
-					<button href="" onclick="mncdigLogout()" class="btn btn-info">Log Out</button>
-				</div>
 				<div class="clearfix"> </div>
+
+				<?php endif; ?>
 			</div>
 
 		</div>

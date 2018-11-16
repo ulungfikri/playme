@@ -1,5 +1,5 @@
-<?php
-  require_once("app-code.php");
+<?php 
+require_once("app-code.php");
 ?>
 
 <!DOCTYPE HTML>
@@ -14,9 +14,9 @@
 	<!-- bootstrap -->
 	<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' media="all" />
 	<!-- //bootstrap -->
-	<link href="/css/dashboard.css" rel="stylesheet">
+	<link href="css/dashboard.css" rel="stylesheet">
 	<!-- Custom Theme files -->
-	<link href="/css/style.css" rel='stylesheet' type='text/css' media="all" />
+	<link href="css/style.css" rel='stylesheet' type='text/css' media="all" />
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<!--start-smoth-scrolling-->
 	<!-- fonts -->
@@ -24,9 +24,8 @@
 	<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<!-- //fonts -->
 </head>
-
-<body>
-	<?php require_once("include/header.php"); ?>
+<body>	
+	<?php require_once("include/header.php"); ?>		
 	<!-- Sidebar Start -->
 	<?php require_once("include/sidebar.php"); ?>
 	<!-- Sidebar End -->
@@ -801,13 +800,13 @@
     	<script src="js/bootstrap.min.js"></script>
     	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>
 
-    	<script type="text/javascript">
+    <script type="text/javascript">
 
-    		$(document).ready(function() {
-    			mncdigAuth('<?=$_GET['username']?>', '<?=$_GET['appClientKey']?>');
-    		})
+        $(document).ready(function() {
+            mncdigAuth('<?=$_GET['username']?>', '<?=$_GET['appClientKey']?>');
+        })
 
-    	</script>
+    </script>
     	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     </body>
     </html>
