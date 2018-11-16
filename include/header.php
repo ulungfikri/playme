@@ -19,7 +19,7 @@
 			</div>
 			<div class="header-top-right">
 
-				<a><?=$_GET['userFullname']?></a>
+				<a><?=$_GET['username']?></a>
 
 				
 				<div class="signin">
