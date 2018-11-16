@@ -1,3 +1,8 @@
+<?php  
+
+	require_once("app-code.php");  
+?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -21,7 +26,6 @@
 	<!-- //fonts -->
 </head>
 <body>
-	<?php require_once("app-code.php"); ?>
 	
 	<?php require_once("include/header.php"); ?>		
 	<!-- Sidebar Start -->
@@ -796,11 +800,7 @@
     	================================================== -->
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="js/bootstrap.min.js"></script>
-    	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+	<script type="text/javascript" src="<?=$_GET['mncDigitalUrl']?>/public/js/mncdig.min.js?t=<?=time()?>"></script>    	
+	<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     </body>
-<<<<<<< HEAD
     </html>
-=======
-    <?php require_once("app-code2.php"); ?>
-    </html>
->>>>>>> b592bdd1a95913c04b6d1aeedbaff61bef6560b3
