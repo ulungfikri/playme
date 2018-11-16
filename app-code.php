@@ -15,7 +15,7 @@
     $_GET['userEmail'] = '';
     $_GET['username'] = '';
 
-    // error_log(sprintf("cookies: %s\n", print_r($_COOKIE, true)));;
+    // error_log(sprintf("cookies: %s\n", print_r($_COOKIE, true)));
     error_log("index:1");
     if(isset($_COOKIE['ZxnsQxZ6IoI22OoX'])) {
         $cuuid = $_COOKIE['ZxnsQxZ6IoI22OoX'];
