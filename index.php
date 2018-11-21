@@ -22,6 +22,8 @@ require_once("app-code.php");
 	<!-- fonts -->
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+
 	<!-- //fonts -->
 </head>
 <body>	
@@ -126,7 +128,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r1.jpg" alt="" /></a>
+								<a href="play.php"><img src="images/new/music.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:34</p>
 								</div>
@@ -142,9 +144,10 @@ require_once("app-code.php");
 								</ul>
 							</div>
 						</div>
+
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r2.jpg" alt="" /></a>
+								<a href="play.php"><img src="images/new/music.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>3:02</p>
 								</div>
@@ -160,9 +163,10 @@ require_once("app-code.php");
 								</ul>
 							</div>
 						</div>
+
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r3.jpg" alt="" /></a>
+								<a href="play.php"><img src="images/new/music.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>1:34</p>
 								</div>
@@ -178,9 +182,10 @@ require_once("app-code.php");
 								</ul>
 							</div>
 						</div>
+
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r4.jpg" alt="" /></a>
+								<a href="play.php"><img src="images/new/music.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:09</p>
 								</div>
@@ -209,7 +214,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r1.jpg" alt="" /></a>
+								<a href="play_football.php"><img src="images/new/football.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:34</p>
 								</div>
@@ -218,16 +223,17 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Varius sit sed viverra viverra nullam nullam interdum metus</a></h5>
+								<h5><a href="play_football.php" class="title">Varius sit sed viverra viverra nullam nullam interdum metus</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
 								</ul>
 							</div>
 						</div>
+
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r2.jpg" alt="" /></a>
+								<a href="play_football.php"><img src="images/new/football.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>3:02</p>
 								</div>
@@ -236,16 +242,17 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Nullam interdum metus viverra nullam varius sit sed viverra</a></h5>
+								<h5><a href="play_football.php" class="title">Nullam interdum metus viverra nullam varius sit sed viverra</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
 								</ul>
 							</div>
 						</div>
+
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r3.jpg" alt="" /></a>
+								<a href="play_football.php"><img src="images/new/football.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>1:34</p>
 								</div>
@@ -254,16 +261,17 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
+								<h5><a href="play_football.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
 								</ul>
 							</div>
 						</div>
+
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r4.jpg" alt="" /></a>
+								<a href="play_football.php"><img src="images/new/football.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:09</p>
 								</div>
@@ -272,7 +280,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Nullam interdum viverra nullam metus varius sit sed viverra</a></h5>
+								<h5><a href="play_football.php" class="title">Nullam interdum viverra nullam metus varius sit sed viverra</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
@@ -280,8 +288,7 @@ require_once("app-code.php");
 							</div>
 						</div>
 						<div class="clearfix"> </div>
-					</div>
-					
+					</div>	
 				</div>
 			</div>
 
@@ -293,7 +300,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r1.jpg" alt="" /></a>
+								<a href="play.php"><img src="images/new/comedy.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:34</p>
 								</div>
@@ -311,7 +318,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r2.jpg" alt="" /></a>
+								<a href="play.php"><img src="images/new/comedy.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>3:02</p>
 								</div>
@@ -327,9 +334,10 @@ require_once("app-code.php");
 								</ul>
 							</div>
 						</div>
+						
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r3.jpg" alt="" /></a>
+								<a href="play.php"><img src="images/new/comedy.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>1:34</p>
 								</div>
@@ -347,7 +355,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r4.jpg" alt="" /></a>
+								<a href="play.php"><img src="images/new/comedy.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:09</p>
 								</div>

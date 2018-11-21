@@ -1,13 +1,3 @@
-	<style type="text/css">
-	.img-wide{
-		border-radius:100em;
-		/*opacity:0.5;*/
-		/*border:2px solid #ddd;*/
-		width:40px;
-		height:40px;
-	}
-</style>
-
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
