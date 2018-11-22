@@ -373,7 +373,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/new/comedy.jpg" alt="" /></a>
+								<a href="play_comedy.php"><img src="images/new/comedy.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:34</p>
 								</div>
@@ -382,7 +382,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Varius sit sed viverra viverra nullam nullam interdum metus</a></h5>
+								<h5><a href="play_comedy.php" class="title">Varius sit sed viverra viverra nullam nullam interdum metus</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
@@ -391,7 +391,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/new/comedy.jpg" alt="" /></a>
+								<a href="play_comedy.php"><img src="images/new/comedy.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>3:02</p>
 								</div>
@@ -400,7 +400,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Nullam interdum metus viverra nullam varius sit sed viverra</a></h5>
+								<h5><a href="play_comedy.php" class="title">Nullam interdum metus viverra nullam varius sit sed viverra</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
@@ -410,7 +410,7 @@ require_once("app-code.php");
 						
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/new/comedy.jpg" alt="" /></a>
+								<a href="play_comedy.php"><img src="images/new/comedy.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>1:34</p>
 								</div>
@@ -419,7 +419,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
+								<h5><a href="play_comedy.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
@@ -428,7 +428,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/new/comedy.jpg" alt="" /></a>
+								<a href="play_comedy.php"><img src="images/new/comedy.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:09</p>
 								</div>
@@ -437,7 +437,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Nullam interdum viverra nullam metus varius sit sed viverra</a></h5>
+								<h5><a href="play_comedy.php" class="title">Nullam interdum viverra nullam metus varius sit sed viverra</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
@@ -457,7 +457,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r1.jpg" alt="" /></a>
+								<a href="play_enter.php"><img src="images/new/enter.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:34</p>
 								</div>
@@ -466,7 +466,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Varius sit sed viverra viverra nullam nullam interdum metus</a></h5>
+								<h5><a href="play_enter.php" class="title">Varius sit sed viverra viverra nullam nullam interdum metus</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
@@ -475,7 +475,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r2.jpg" alt="" /></a>
+								<a href="play_enter.php"><img src="images/new/enter.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>3:02</p>
 								</div>
@@ -484,7 +484,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Nullam interdum metus viverra nullam varius sit sed viverra</a></h5>
+								<h5><a href="play_enter.php" class="title">Nullam interdum metus viverra nullam varius sit sed viverra</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
@@ -493,7 +493,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r3.jpg" alt="" /></a>
+								<a href="play_enter.php"><img src="images/new/enter.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>1:34</p>
 								</div>
@@ -502,7 +502,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
+								<h5><a href="play_enter.php" class="title">Varius sit sed viverra nullam viverra nullam interdum metus</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
@@ -511,7 +511,7 @@ require_once("app-code.php");
 						</div>
 						<div class="col-md-3 resent-grid recommended-grid">
 							<div class="resent-grid-img recommended-grid-img">
-								<a href="play.php"><img src="images/r4.jpg" alt="" /></a>
+								<a href="play_enter.php"><img src="images/new/enter.jpg" alt="" /></a>
 								<div class="time small-time">
 									<p>2:09</p>
 								</div>
@@ -520,7 +520,7 @@ require_once("app-code.php");
 								</div>
 							</div>
 							<div class="resent-grid-info recommended-grid-info video-info-grid">
-								<h5><a href="play.php" class="title">Nullam interdum viverra nullam metus varius sit sed viverra</a></h5>
+								<h5><a href="play_enter.php" class="title">Nullam interdum viverra nullam metus varius sit sed viverra</a></h5>
 								<ul>
 									<li><p class="author author-info"><a href="#" class="author">John Maniya</a></p></li>
 									<li class="right-list"><p class="views views-info">2,114,200 views</p></li>
